@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Cutom Style-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+     <!-- BootStrap  -->
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> -->
+
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="./css/splide/splide.min.css">
+    
+
+    <!--Custom Script-->
+    <script src="scripts/script.js" defer></script>
+    <title>Website</title>
+</head>
+<body>
+    
+    <header class="bg-dark">
+        <!--   NavBar    -->
+        <div class="container-fluid navbarContainer bg-dark shadow">
+            <div class="row gx-0 align-items-center">
+                <div class="col-12 col-lg-9 col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark leftNav">
+
+                        <a class="navbar-brand p-0 " href="#"><img class="Logo" src="./imgs/BOTICS.png"  alt="boticslogo"/></a>
+
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <ul class="navbar-nav mx-18">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Blogs
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  About Us
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contact
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                      </nav>
+                </div>
+
+                <div class="col-0 col-lg-3 col-sm-0 rightNav ">
+                  <div>
+                    <button class="icon-button">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="icon-button">
+                      <i class="fa fa-cart-shopping"></i>
+                    </button>
+                    <button class="btn btn-primary px-3  mx-3">Sign In</button>
+                  </div>
+             
+                </div>
+                
+            </div>
+        </div>
+
+    </header>
+
+    <!--  Body  -->
+
+
+
+        <!-- Banner   -->
+
+        <div class=" banner bg-dark pb-15 pt-15 px-4">
+        <div class=" container" >
+          <div class="row align-items-center justify-content-center">
+
+              <div class="col-lg-7 col-sm-12 col-md-6 col-xl-7 d-flex justify-content-center align-items-center">
+                 <div class="bannerLeft"> 
+                  <h2 class="display-3">Revolutionize your business with <span>AI</span> services</h2>
+                  <p>Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions...</p>
+                <div class="bannerLeft-btns py-3 d-flex justify-content-start align-items-center">
+                  <button class="btn btn-primary ">Get Started</button>
+                  <button class="watchBtn mx-3"><i class="fa-solid fa-play"></i> Watch Intro Video</button>
+                    </div>
+                </div> 
+              </div>
+
+              <div class="col-lg-5 col-sm-12 col-md-6 col-xl-5 bannerRight justify-content-center align-items-center d-flex">
+                <div class="bannerRight">
+                  <div class="bannerRight-img ">
+                    <img class="robotPink align-self-center img-fluid" src="./imgs/robotPink.png" alt="robotimg" />
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+        </div>
+
+
+
+        <!-- Section 1  -->
+
+    <section class="section-1 bg-dark pb-10 ">
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 inner-section1 shadow d-flex flex-column justify-content-center py-8 bg-primary">
+            <div class="align-self-center px-3" >
+              <button class="section-1-top-btn px-3 py-1"><span class="px-2">New</span> Generate AI images from text! <i class="fa fa-chevron-right mx-1"></i></button>
+              <h2 class="section-1-heading my-3 display-6" >Image enhancer & upscaler. Make Old a New, New!</h2>
+              <ul>
+                <li>Increase image resolution, improve quality and add clarity.</li>
+                <li>Make your photos look their best in a one click</li>
+                <li>Generate captivating AI art in high quality</li>
+              </ul>
+              <div class="section-1-Btns my-3 d-flex justify-content-center align-items-center mt-5" >
+                <button class="btn btn-primary-dark btn-dark">Start free</button>
+                <button class="btn btn-primary-dark btn-dark mx-3">Request API</button>
+              </div>
+            </div>
+            <div class="section-1-Pics d-flex justify-content-center align-items-center mt-8 px-5 w-100">
+              
+                <img src="./imgs/section1imgleft.jpeg" class="shadow " alt="blurryImage" />
+              
+              <span><i class="fa-solid fa-arrow-right mx-5 display-5"></i></span>
+            
+                <img src="./imgs/section1imgright.jpg" class="shadow " alt="enhanceImage"/>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Section 2 -->
+
+    <section  class="section-2 py-10 bg-primary px-4">
+      <h5 class="display-6 text-center pb-6 ">According to your Interest</h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12 ps-8 ">
+              <div class="section-2-left">
+                  <div class="left1 section-2-left-content position-relative w-75"> <img class="img-fluid w-50 position-relative" src="./imgs/Berserk.gif" alt="berserkImg"/></div>
+                  <div class="left2 section-2-left-content position-relative w-75"><img class="img-fluid w-75 position-relative" src="./imgs/astronaut-space.gif" alt="berserkImg"/></div>
+                  <div class="left3 section-2-left-content position-relative w-75"><img class="img-fluid w-50 position-relative" src="./imgs/dogo.gif" alt="berserkImg"/></div>
+              </div>
+          </div>
+          <div class="col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12 ">
+            <div class="section-2-right d-flex flex-column justify-content-center">
+              <h2 class="display-6 mt-9">Say goodbye to cameras, microphones and actors</h2>
+              <p class="my-4">Bring your imagination to life and create one-of-a-kind videos, Breathe life into your images using A.I. video editing software. Turn your photos into videos, online.</p>
+              <div class="section-2-right-btns d-flex justify-content-start align-items-center">
+              <button class="btn btn-bg-dark btn-dark ">Try it - Free!</button>
+              <button class="btn btn-transparent border-dark mx-2" >Pricing!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- Section 3 -->
+
+    <section class="section-3 bg-primary py-10 px-4">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="section-3-left pt-3 ">
+                    <h2 class="display-6">We offer professional <span>AI & ML</span> solutions for humans</h2>
+                      <p class="py-3">Artificial intelligence (AI) is perceiving, synthesizing, and inferring information demonstrated by , as opposed to intelligence displayed by n and . Example tasks in which this is done include speech recognition, computer vision, translation between (natural) languages, as well as other mappings of inputs. The of defines artificial intelligence as:</p>
+                   <div class="progress-bars d-flex justify-content-center align-items-center pb-3">
+                    <div class="progress-bars-left w-50 me-2 ">
+                      <p>Customer Satisfaction</p>
+                      <div class="progress progress1 m-2">
+                        <div class="progress-bar bg-dark " role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                      </div>
+                    <p>Marketing</p>
+                      <div class="progress progress2 m-2">
+                        <div class="progress-bar bg-dark " role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                      </div>
+
+                  </div>
+
+                  <div class="progress-bars-right w-50 ms-2 ">
+                    <p>Performance</p>
+                    <div class="progress progress3 m-2">
+                      <div class="progress-bar bg-dark" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
+                    </div>
+                    <p>Privacy</p>
+                    <div class="progress progress4 m-2">
+                      <div class="progress-bar bg-dark " role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">83%</div>
+                    </div>
+                  </div>
+
+                   </div>
+                     
+                   <button class="btn btn-dark mb-5 mt-3 ms-2">Read More</button>
+
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+                <div class="section-3-right pt-3 pe-3">
+                  <img src="./imgs/section3Robot.png" class="img-fluid" alt="RobotHead"/>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+
+    <!--  Section 4  -->
+
+    <section class="section-4 pt-5 pb-10 px-4 bg-dark " >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 pt-5 pb-8 section-4-top d-flex justify-content-center align-items-center flex-column">
+              <h2 class="display-5">Differentiating through case studies</h2>
+              <p>AI is broader concept of machines being able to carry out tasks in a way that would normally require human intelligence.</p>
+            </div>
+
+            <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 section-4-bottom">
+              <div class="container">
+                <div class="row d-flex justify-content-center align-items-center cardsContainer">
+                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-8" >
+                    <img src="./imgs/ClassifyingImages.jpg" class="img-fluid" alt="ClassifyingImages">
+                    <div class="hoverData">
+                      <button class="btn btn-primary">Machine</button>
+                    <p class="h5">Classifying AI Photos</p>
+                    </div>
+                   </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4" >
+                    <img src="./imgs/AIAnti.jpg" class="img-fluid" alt="AIAnti">
+                    <div class="hoverData">
+                      <button class="btn btn-primary">Technology</button>
+                      <p class="h5">AI Antibiotics</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-8" >
+                    <img src="./imgs/IndustryLabor.jpg" class="img-fluid" alt="IndustryLabor">
+                    <div class="hoverData">
+                      <button class="btn btn-primary">Robot</button>
+                      <p class="h5">Industry Labor AI</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row d-flex justify-content-center align-items-center cardsContainer">
+                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-8" >
+                    <img src="./imgs/EducationAI.jpg" class="img-fluid" alt="EducationAI" >
+                    <div class="hoverData">
+                      <button class="btn btn-primary">Robot</button>
+                      <p class="h5">Education AI Study</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 " >
+                    <img src="./imgs/Army Defense.jpg" class="img-fluid" alt="ArmyDefense" >
+                    <div class="hoverData">
+                      <button class="btn btn-primary">Technology</button>
+                      <p class="h5">Army Defense AI and MI</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-8" >
+                    <img src="./imgs/ACT-AI.jpg" class="img-fluid" alt="ACT-AI" >
+                    <div class="hoverData">
+                      <button class="btn btn-primary">Machine</button>
+                      <p class="h5">ACT AI Performance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!--   Section 5  -->
+
+    <section  class="section-5 bg-dark py-8 px-4">
+     
+      <div class="container ">
+        <div class="row">
+          <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xl-12 d-flex justify-content-center align-items-center flex-column">
+            <h2 class="display-5 section-5-heading pt-5 pb-10">Feedback By Our Customers</h2>
+            <section class="splide" aria-label="Splide Basic HTML Example">
+
+              <!-- Splide arrows customization -->
+              <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev" style="background-color: transparent; color: pink; font-weight: 700;">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" style="background-color: transparent; color: pink; font-weight: 700;">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+
+
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="splide-InnerDiv d-flex justify-content-center flex-column align-items-center">
+                      <div class="splide-InnerTop d-flex justify-content-center flex-column align-items-center">
+                        
+                          <img src="./imgs/feedbackProfilePic.jpg" class="img-fluid w-50 feedbackProfilePic p-0" alt="feedbackProfilePic" />
+                        
+                        <h5 class="display-6 feedbackProfileName pt-5">John Terry</h5>
+                        <p class="feedbackProfileCity">New York City</p>
+                      </div>
+                      <div class="splide-InnerBottom "><p class="feedbackComment pt-3 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto aspernatur corporis quas, necessitatibus rerum neque placeat fuga quia aut ad?</p></div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide-InnerDiv d-flex justify-content-center flex-column align-items-center">
+                      <div class="splide-InnerTop d-flex justify-content-center flex-column align-items-center">
+                        
+                          <img src="./imgs/feedbackProfilePic.jpg" class="img-fluid w-50 p-0 feedbackProfilePic" alt="feedbackProfilePic" />
+                        
+                        <h5 class="display-6 feedbackProfileName pt-5">Julia Marters</h5>
+                        <p class="feedbackProfileCity">Paris</p>
+                      </div>
+                      <div class="splide-InnerBottom "><p class="feedbackComment  pt-3 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto aspernatur corporis quas, necessitatibus rerum neque placeat fuga quia aut ad?</p></div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide-InnerDiv d-flex justify-content-center flex-column align-items-center">
+                      <div class="splide-InnerTop d-flex justify-content-center flex-column align-items-center">
+                        
+                          <img src="./imgs/feedbackProfilePic.jpg" class="img-fluid w-50 p-0 feedbackProfilePic" alt="feedbackProfilePic" />
+                        
+                        <h5 class="display-6 feedbackProfileName pt-5">David Muller</h5>
+                        <p class="feedbackProfileCity">Beckley</p>
+                      </div>
+                      <div class="splide-InnerBottom "><p class="feedbackComment pt-3 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto aspernatur corporis quas, necessitatibus rerum neque placeat fuga quia aut ad?</p></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+
+
+
+    <!--  Section 6 -->
+
+    <section class="section-6 pt-10 pb-5 px-4 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class=" col-md-6 col-lg-6 col-xl-6 col-sm-12">
+            <div class="section-6-left">
+              <p class="h5 mb-5">Basic info about BotTics</p>
+              <h2 class="display-4 w-75">We are behind the best AI and ML based services.</h2>
+            </div>
+          </div>
+          <div class=" col-md-6 col-lg-6 col-xl-6 col-sm-12 ">
+            <div class="section-6-right">
+              <p class=" pt-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio sapiente eius adipisci provident culpa fuga? Eligendi, amet numquam! Tenetur blanditiis totam nihil. Nulla quae voluptate quod dolor enim sint.</p>
+              <p class="pt-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore quod iure ipsum, quos maiores sint, omnis quo atque maxime molestiae magni earum repellendus culpa.</p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="section-6-bottom d-flex justify-content-center align-items-center py-10">
+                <div >
+                  <i class="fa fa-bolt display-2"></i>
+                 <p class="display-6 mt-2"> We provide AI services for your bussiness.</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-robot display-2"></i>
+                  <p  class="display-6 mt-2">Join our amazing customership.</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-heart display-2"></i>
+                  <p  class="display-6 mt-2">We love our valued customers.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer  -->
+
+    <footer class="footer bg-primary pt-8 pb-5 px-4">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center footer-data">
+          <div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4 contacts d-flex justify-content-center align-items-center flex-column">
+            <h4>Contact</h4>
+            <div>
+              <a href="#" ><i class="fa-solid fa-phone pt-3 pb-2" ></i> +99331024534</a>
+              <br/>
+              <a href="#" ><i class="fa-solid fa-envelope py-2"></i> example@example.com</a>
+              <br/>
+              <a href="#" ><i class="fa-solid fa-location-dot py-2" ></i> Arkelstein 89 Losser ,Overijssel</a>
+              <br/>
+            </div>
+          </div>
+          <div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4  d-flex justify-content-center align-items-center flex-column">
+            <h4 class="mb-4">Newsletter</h4>
+            <p>Subscribe our newsletter to get our latest update & news</p>
+            <div class="newsletterInput d-flex justify-content-center align-items-center">
+              <input type="text" />
+              <button class="btn btn-primary"><i class="fa-solid fa-rocket"></i></button>
+            </div>
+          </div>
+          <div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center flex-column">
+            <h4 >Social Media</h4>
+            <div class="socialMediaLinks mt-6 d-flex justify-content-center align-items-center">
+             <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" > <i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xl-12 pt-5 d-flex justify-content-between align-items-center ">
+            <div class="footer-bottom-left">
+            <p>Copyright ©2023 <a href="#">BotTics</a>. Designed by <a href="https://github.com/zeddspear" target="_blank">Zeeshan Ahmed</a></p>
+            </div>
+            <ul class="footer-bottom-right d-flex justify-content-center align-items-center text-center">
+              <a href="#"><li>Support</li></a>
+              <a href="#"><li>Privacy Policy</li> </a>
+              <a href="#"><li>Terms and Conditions</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+
+
+    <!--    BootStrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    <!-- Splide  -->
+    <script src="./scripts/splide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js" integrity="sha256-A+2opyqhvbBV8tbd9mIM8w9zvvMYHOawY03BQRtq7Kw=" crossorigin="anonymous"></script>
+  </body>
+</html>
